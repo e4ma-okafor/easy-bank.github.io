@@ -10,78 +10,204 @@
     <title>Easybank</title>
 </head>
 <body>
+    <!--Header section starts-->
     <header>
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container">              
-                <div class="logo">
-                  <a class="navbar-brand" href="#"><img src="img/logo.svg" alt="Company Logo"></a>
-                </div>              
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">                
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>                
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link">Blog</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link">Careers</a>
-                      </li>
-                    </ul>
-                    <div class="button">
-                      <a class="btn btn-primary rounded-pill grad py-3 px-5" href="#" role="button">Request Invite</a>
-                    </div>
-                </div>                             
-            </div>
-          </nav>
-    </header>
+      <nav class="navbar navbar-expand-lg bg-light">
+          <div class="container py-2">              
+              <div class="logo w-25">
+                <a class="navbar-brand" href="#"><img src="img/logo.svg" alt="Company Logo"></a>
+              </div>              
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">                
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active text-black-50" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-black-50" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-black-50" aria-current="page" href="#">Contact</a>                
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-black-50">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-black-50">Careers</a>
+                    </li>
+                  </ul>
+                  <div class="button">
+                    <a class="btn btn-primary rounded-pill grad py-3 px-5" href="#" role="button">Request Invite</a>
+                  </div>
+              </div>                             
+          </div>
+        </nav>
+  </header>
+    <!--Header section ends-->
 
-    <footer>
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid container">
-              <a class="navbar-brand" href="#"><img src="img/logo.svg" alt="Company Logo"></a>
-              <div class="social-links">
-                  <img src="img/icon-facebook.svg" alt="Facebook link">                  
-                  <img src="img/icon-twitter.svg" alt="Twitter link">
-                  <img src="img/icon-instagram.svg" alt="Instagram link">
+    <!--Banner section starts-->
+    <section id="banner-section">
+      <div class="banner">
+        <div class="container">
+          <h2 class="fw-bold fs-1" style="padding-top: 200px;">Contact Us</h2>
+        </div>
+      </div>
+     <div class="bg-light py-4">
+       <div class="container">
+        <nav style="--bs-breadcrumb-divider: '>>';" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a class="text-decoration-none text-black" href="#">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Contact us</li>
+          </ol>
+        </nav>     
+       </div>
+     </div> 
+    </section>
+    <!--Banner section ends-->
+    <!--Form section starts-->
+    <section>
+      <div class="container">
+        <form action="" class="py-5">
+          <p>We want your feedback. If you have any issue you want us to resolve, get in touch with us by phone, email or social media.</p>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="row mb-3">              
+                <div class="col-sm-10">
+                  <input type="email" class="form-control form-control-lg" id="colFormLabelLg" placeholder="Full Name*" required>
+                </div>
+              </div>            
+              <div class="row mb-3">              
+                <div class="col-sm-10">
+                  <input type="email" class="form-control form-control-lg" id="colFormLabelLg" placeholder="Email*" required>
+                </div>
               </div>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="row mb-3">              
+                <div class="col-sm-10">
+                  <input type="email" class="form-control form-control-lg" id="colFormLabelLg" placeholder="Subject*" required>
+                </div>
+              </div> 
+              <div class="row">
+                <div class="col-sm-10">
+                  <textarea name="comment" id="comment" class="form-control form-control-lg" placeholder="Comment..."></textarea>    
+                </div>
+              </div>       
+            </div>
+            <div class="col-md-4 offset-md-4">
+              <div class="card border-light mb-3" style="max-width: 18rem;">
+                <div class="card-header">Customer contact center<span class="ms-5 fw-bold">></span></div>
+                <div class="card-body">
+                  <h5 class="card-title">we_care@unitybankng.com</h5>
+                  <p class="card-text text-black-50">+234 (0) 7080 666 000<br/>
+                    +234 (0) 7057 323 226<br/>
+                    +234 (0) 7057 323 229 <br>
+                    01-2803010 <br>
+                  </p>
+                </div>
+              </div>
+              <div class="card border-light mb-3" style="max-width: 18rem;">
+                <div class="card-header">Head office<span class="ms-5 ps-5 fw-bold">></span></div>
+              </div>
+              <div class="card border-light mb-3" style="max-width: 18rem;">
+                <div class="card-header">Media Queries<span class="ms-5 ps-5 fw-bold">></span></div>
+              </div>            
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!--Form section ends-->
+    <!--Customer care-->
+    <section>
+      <div class="bg-light">
+        <div class="container p-5">
+          <div class="row">
+            <div class="col p-4 bg-white text-center me-3" style="width: 20%!important;">
+              <a class="text-decoration-none text-black" href="#">
+                <img src="img/contact-phone.png" class="w-25" alt="Call us">
+                <p>Contact</p>
+              </a>
+            </div>
+            <div class="col p-4 w-25 bg-white text-center me-3" style="width: 20%!important;">
+              <a class="text-decoration-none text-black" href="#">
+                <img src="img/complaint.png"  class="w-25" alt="Complaints">
+                <p>Complaints</p>
+              </a>
+            </div>
+            <div class="col p-4 w-25 bg-white text-center me-3" style="width: 20%!important;">
+              <a class="text-decoration-none text-black" href="#">
+                <img src="img/whistle-blower.png"  class="w-25" alt="Report">
+                <p>Whistle Blower</p>
+              </a>
+            </div>
+            <div class="col p-4 w-25 bg-white text-center me-3" style="width: 20%!important;">
+              <a class="text-decoration-none text-black" href="#">
+                <img src="img/faqs.png"  class="w-25" alt="faqs">
+                <p class="text-uppercase">faqs</p>
+              </a>
+            </div>
+            <div class="col p-4 w-25 bg-white text-center" style="width: 20%!important;">
+              <a class="text-decoration-none text-black" href="#">
+                <img src="img/custmer-care.png"  class="w-25" alt="Customer care">
+                <p>Customer Care forms</p>
+              </a>
+            </div>             
+          </div>          
+        </div>
+      </div>
+    </section>
+    <!--Customer care ends-->
+    <!--Footer section starts-->
+    <footer id="footer">
+      <nav class="navbar navbar-expand-lg bg-light py-5">
+          <div class="container-fluid container w-100">
+            <div class="col">
+              <div class="nav-first d-flex row w-25 mb-5">
+                <a class="navbar-brand" href="#"><img src="img/logo.svg" alt="easy bank logo" style="background: #fff;"></a>                
+              </div>
+              <div class="social-links d-flex justify-content-between" style="width: 50%;">
+                <img src="img/icon-facebook.svg" alt="Facebook link">                  
+                <img src="img/icon-twitter.svg" alt="Twitter link">
+                <img src="img/icon-instagram.svg" alt="Instagram link">
+            </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+              <div class="nav-second d-flex flex-column">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="about.html">About Us</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Blog</a>                
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link">Careers</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link">Support</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link">Policy privacy</a>
-                  </li>
+                  <div class="row">
+                    <li class="nav-item">
+                      <a class="nav-link active text-white" aria-current="page" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="#">Blog</a>                
+                    </li>
+                  </div>
+                  <div class="row">
+                    <li class="nav-item">
+                      <a class="nav-link text-white">Careers</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white">Support</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white">Policy privacy</a>
+                    </li>
+                  </div>
                 </ul>
-                <a class="btn btn-primary rounded-pill grad py-3 px-5" href="#" role="button">Request Invite</a>
-                <p> © Easybank. All Rights Reserved</p>
+              </div>
+              <div class="nav-third d-flex flex-column justify-content-end">
+                <a class="btn btn-primary rounded-pill mb-3 grad py-3 px-3" href="#" role="button">Request Invite</a>
+                <p class="text-white mt-2"> © Easybank. All Rights Reserved</p>
               </div>
             </div>
-          </nav>
-      </footer>
-    
+          </div>
+        </nav>
+    </footer>
+    <!--Footer section ends-->   
     <script src="js/bootstrap.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>

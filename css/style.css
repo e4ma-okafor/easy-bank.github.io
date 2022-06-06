@@ -27,4 +27,11 @@
     border: 1px solid #fff;
     border-radius: 3px;
 }
+
+#banner-section .banner {
+    background: url('../img/easy-bank-contact.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 80vh;
+}
     
