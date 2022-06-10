@@ -4,157 +4,127 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon-data.gif" type="image/x-icon">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Easybank</title>
+    <title>Contact us | easybank</title>
 </head>
 <body>
     <!--Header section starts-->
     <header>
-      <nav class="navbar navbar-expand-lg bg-light">
-          <div class="container py-2">              
-              <div class="logo w-25">
-                <a class="navbar-brand" href="#"><img src="img/logo.svg" alt="Company Logo"></a>
-              </div>              
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">                
-                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                      <a class="nav-link active text-black-50" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-black-50" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-black-50" aria-current="page" href="#">Contact</a>                
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-black-50">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-black-50">Careers</a>
-                    </li>
-                  </ul>
-                  <div class="button">
-                    <a class="btn btn-primary rounded-pill grad py-3 px-5" href="#" role="button">Request Invite</a>
-                  </div>
-              </div>                             
+      <nav class="navbar py-4 navbar-expand-lg bg-light">
+        <div class="container">
+          <div class="d-flex w-100 justify-content-between">
+            <div class="col-md-4">
+              <a class="navbar-brand" href="#"><img src="img/logo.svg" alt="Easybank"></a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon text-black"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav col-md-8">
+                <a class="nav-link active text-black" aria-current="page" href="#">Home</a>
+                <a class="nav-link text-black" href="about.html">About</a>
+                <a class="nav-link text-black" href="contact.html">Contact</a>
+                <a class="nav-link text-black" href="#">Blog</a>
+              </div>
+              <div class=".col-md-4">
+                <a class="nav-link btn text-white rounded-pill grad px-4" href="#" role="button" >Request Invite</a>
+              </div>
+            </div>        
           </div>
-        </nav>
-  </header>
+        </div>
+      </nav>
+     </header>
     <!--Header section ends-->
 
-    <!--Banner section starts-->
-    <section id="banner-section">
-      <div class="banner">
-        <div class="container">
-          <h2 class="fw-bold fs-1" style="padding-top: 200px;">Contact Us</h2>
-        </div>
-      </div>
-     <div class="bg-light py-4">
-       <div class="container">
-        <nav style="--bs-breadcrumb-divider: '>>';" aria-label="breadcrumb">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a class="text-decoration-none text-black" href="#">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Contact us</li>
-          </ol>
-        </nav>     
-       </div>
-     </div> 
-    </section>
-    <!--Banner section ends-->
-    <!--Form section starts-->
-    <section>
+    <!--Main section starts-->
+    <section id="main" class="my-5 mx-3">
       <div class="container">
-        <form action="" class="py-5">
-          <p>We want your feedback. If you have any issue you want us to resolve, get in touch with us by phone, email or social media.</p>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="row mb-3">              
-                <div class="col-sm-10">
-                  <input type="email" class="form-control form-control-lg" id="colFormLabelLg" placeholder="Full Name*" required>
-                </div>
-              </div>            
-              <div class="row mb-3">              
-                <div class="col-sm-10">
-                  <input type="email" class="form-control form-control-lg" id="colFormLabelLg" placeholder="Email*" required>
-                </div>
-              </div>
-              <div class="row mb-3">              
-                <div class="col-sm-10">
-                  <input type="email" class="form-control form-control-lg" id="colFormLabelLg" placeholder="Subject*" required>
-                </div>
-              </div> 
-              <div class="row">
-                <div class="col-sm-10">
-                  <textarea name="comment" id="comment" class="form-control form-control-lg" placeholder="Comment..."></textarea>    
-                </div>
-              </div>       
-            </div>
-            <div class="col-md-4 offset-md-4">
-              <div class="card border-light mb-3" style="max-width: 18rem;">
-                <div class="card-header">Customer contact center<span class="ms-5 fw-bold">></span></div>
-                <div class="card-body">
-                  <h5 class="card-title">we_care@unitybankng.com</h5>
-                  <p class="card-text text-black-50">+234 (0) 7080 666 000<br/>
-                    +234 (0) 7057 323 226<br/>
-                    +234 (0) 7057 323 229 <br>
-                    01-2803010 <br>
-                  </p>
-                </div>
-              </div>
-              <div class="card border-light mb-3" style="max-width: 18rem;">
-                <div class="card-header">Head office<span class="ms-5 ps-5 fw-bold">></span></div>
-              </div>
-              <div class="card border-light mb-3" style="max-width: 18rem;">
-                <div class="card-header">Media Queries<span class="ms-5 ps-5 fw-bold">></span></div>
-              </div>            
-            </div>
+        <div class="text-center ">
+          <h1 class="fs-2 fw-bold">We are Here to Help</h1>
+          <p class="fs-4">Personal Bank Account Customer Service and Support</p>
+        </div>
+        <div class="mb-4">
+          <p>To find out more about our response to COVID-19, including 
+            financial assistance for clients, visit <a href="">easybank.com/coronavirus</a>.
+          </p>
+        </div>
+        <div class="row mb-3">
+          <div class="col me-3 text-center bg-light py-4">
+            <img src="img/live-chat.png" class="other" alt="">
+            <h3>Live Chat <br>
+            Talk to a representative who can help</h3>
+            <p>Chat Hours <br>
+              Monday-Friday, 7:00 a.m.-Midnight ET <br>
+              Saturday-Sunday, 8:00 a.m.-9 p.m. ET</p>
+              <p>To chat with a representative, sign on to online banking <br> and 
+                from “Customer Service” on the top, scroll down to <br> “Live Chat.”
+              </p>
+              <a class="btn btn-danger rounded px-3 py-2" href="#" role="button">Sign On</a>
           </div>
-        </form>
-      </div>
-    </section>
-    <!--Form section ends-->
-    <!--Customer care-->
-    <section>
-      <div class="bg-light">
-        <div class="container p-5">
-          <div class="row">
-            <div class="col p-4 bg-white text-center me-3" style="width: 20%!important;">
-              <a class="text-decoration-none text-black" href="#">
-                <img src="img/contact-phone.png" class="w-25" alt="Call us">
-                <p>Contact</p>
-              </a>
-            </div>
-            <div class="col p-4 w-25 bg-white text-center me-3" style="width: 20%!important;">
-              <a class="text-decoration-none text-black" href="#">
-                <img src="img/complaint.png"  class="w-25" alt="Complaints">
-                <p>Complaints</p>
-              </a>
-            </div>
-            <div class="col p-4 w-25 bg-white text-center me-3" style="width: 20%!important;">
-              <a class="text-decoration-none text-black" href="#">
-                <img src="img/whistle-blower.png"  class="w-25" alt="Report">
-                <p>Whistle Blower</p>
-              </a>
-            </div>
-            <div class="col p-4 w-25 bg-white text-center me-3" style="width: 20%!important;">
-              <a class="text-decoration-none text-black" href="#">
-                <img src="img/faqs.png"  class="w-25" alt="faqs">
-                <p class="text-uppercase">faqs</p>
-              </a>
-            </div>
-            <div class="col p-4 w-25 bg-white text-center" style="width: 20%!important;">
-              <a class="text-decoration-none text-black" href="#">
-                <img src="img/custmer-care.png"  class="w-25" alt="Customer care">
-                <p>Customer Care forms</p>
-              </a>
-            </div>             
-          </div>          
+          <div class="col text-center bg-light py-5">
+            <img src="img/location.png" class="img mb-3" alt="">
+            <h3>Locations</h3>
+            <p>We are serving clients at all of our ATMs, most drive- <br> thrus and by 
+              appointment at most branches. For safe <br> deposit box access, contact us.
+            </p>
+              <a href="">Find Locations</a> <br>
+              <a href="">Schedule an appointment</a>
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col me-3 text-center bg-light py-4">
+            <img src="img/online-mobile.svg" class="img mb-3" alt="">
+            <h3>Online and Mobile Banking</h3>
+            <p>Check balances, deposit checks, pay bills and 
+              more - <br> easily and securely, without leaving home.
+            </p>
+            <a href="" class="btn text-bg-light p-3" role="button">Get Started</a>
+              <p>Need Help? <br>
+                1-800-539-1539
+              </p>
+              <p>Clients using a TDD/TTY device: 1-800-539-8336 <br>
+                Monday-Friday, 7:00 a.m.-Midnight ET <br>
+                Saturday-Sunday, 8:00 a.m.-9:00 p.m. ET</p>              
+          </div>
+          <div class="col text-center bg-light pt-2">
+            <img src="img/call-us.png" class="other img" alt="">
+            <h3>Call Us <br>
+              24/7 customer service</h3>
+            <p>We are experiencing longer than usual hold times as we <br> work with our clients.
+            </p>
+            <p><a href="">1-800-KEY2YOU</a>® (539-2968) <br> 
+
+              Clients using a TDD/TTY device: 1-800-539-8336 <br>
+              
+              Clients using a relay service: 1-866-821-9126</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col me-3 text-center bg-light py-3">
+            <img src="img/live-chat.png" class="other" alt="">
+            <h3>Mortgage Customer Service</h3>
+            <p><a href="">1-800-422-2442</a> <br>
+
+              Clients using a TDD/TTY device: 1-800-539-8336 <br>
+              
+              Monday-Friday, 8:30 a.m.- 8:00 p.m. ET</p>              
+          </div>
+          <div class="col text-center bg-light py-4">
+            <img src="img/make-payment.png" class="img pb-2" alt="">
+            <h3>Make a Payment</h3>
+            <a href="">Make a Mortgage Payment</a> <br>
+            <a href="">Make a Credit Card Payment</a> <br>
+            <a href="">Make a Consumer Loan or Line of Credit Payment</a> <br>
+            <a href="">Make a Home Equity Payment</a>
+          </div>
         </div>
       </div>
     </section>
-    <!--Customer care ends-->
+    <!--Main section ends-->
+
     <!--Footer section starts-->
     <footer id="footer">
       <nav class="navbar navbar-expand-lg bg-light py-5">
@@ -180,10 +150,10 @@
                       <a class="nav-link active text-white" aria-current="page" href="#">About Us</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link text-white" href="#">Contact</a>
+                      <a class="nav-link text-white" href="contact.html">Contact</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link text-white" href="#">Blog</a>                
+                      <a class="nav-link text-white" href="about.html">Blog</a>                
                     </li>
                   </div>
                   <div class="row">
