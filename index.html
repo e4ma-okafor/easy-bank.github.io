@@ -13,30 +13,38 @@
 <body>
   <!--Header section starts-->
   <header>
-    <nav class="navbar nav-w-90 py-4 navbar-expand-lg navbar-light bg-light">
-      <div class="container">
-        <div class="d-flex w-100 justify-content-between">
-          <div class="col-md-4">
-            <a class="navbar-brand" href="#"><img src="img/logo.svg" alt="Easybank"></a>
-          </div>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar nav-w-90 py-4 navbar-expand-lg bg-light">
+        <div class="container">
+          <div class="d-flex w-100 justify-content-between">
+            <div class="col-md-4">
+                <a class="navbar-brand" href="#"><img src="img/logo.svg" alt="Easybank"></a>
+            </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="navbar-nav col-md-8">
-              <a class="nav-link active text-black" aria-current="page" href="#">Home</a>
-              <a class="nav-link text-black" href="about.html">About</a>
-              <a class="nav-link text-black" href="contact.html">Contact</a>
-              <a class="nav-link text-black" href="#">Blog</a>
-            </div>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 col-md-8">
+              <li class="nav-item">
+                <a class="nav-link active text-black" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="contact.html">Contact Us</a>                      
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="#">Blog</a>
+              </li>
+            </ul>
             <div class=".col-md-4">
-              <a class="nav-link btn text-white rounded-pill grad px-4" href="#" role="button" >Request Invite</a>
-            </div>
-          </div>        
+                <a class="nav-link btn text-white rounded-pill grad px-4" href="#" role="button" >Request Invite</a>
+              </div>            
+          </div>
+          </div>
         </div>
-      </div>
-    </nav>
-   </header>
+      </nav>
+  </header>  
    <!--Header section ends-->
 
    <!--Hero-section starts-->
@@ -171,57 +179,46 @@
   </section>    
   <!--Articles section ends--> 
   <!--Footer section starts-->
-  <footer id="footer">
-        <nav class="navbar navbar-expand-lg bg-light py-5">
-            <div class="container-fluid container w-100">
-              <div class="col">
-                <div class="nav-first d-flex row w-25 mb-5">
-                  <a class="navbar-brand" href="#"><img src="img/logo.svg" alt="easy bank logo" style="background: #fff;"></a>                
-                </div>
-                <div class="social-links d-flex justify-content-between" style="width: 50%;">
-                  <img src="img/icon-facebook.svg" alt="Facebook link">                  
-                  <img src="img/icon-twitter.svg" alt="Twitter link">
-                  <img src="img/icon-instagram.svg" alt="Instagram link">
-              </div>
-              </div>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
-                <div class="nav-second d-flex flex-column">
-                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <div class="row">
-                      <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="#">About Us</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link text-white" href="contact.html">Contact</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link text-white" href="about.html">Blog</a>                
-                      </li>
+  <footer id="footer">       
+    <div class="footer-links pt-5 pb-5">
+        <div class="container pt-4 pb-4">
+            <div class="m-auto mx-3" >
+                <div class="row">
+                    <div class="col-lg-2 col-md-4 col-sm-4 mb-4 text-center">
+                        <div class="logo d-flex row mb-3">
+                            <a href="#" class="text-decoration-none"><img src="img/logo.svg" alt="footer logo" style="background: #fff;"></a>
+                        </div>
+                        <div class="social-links d-flex justify-content-between" style="width: 50%;">
+                          <a href="https://facebook.com" class="text-decoration-none"><img src="img/icon-facebook.svg" alt="Facebook link"></a>                  
+                          <a href="https://twitter.com" class="text-decoration-none"><img src="img/icon-twitter.svg" alt="Twitter link"></a>
+                          <a href="https://instagram.com" class="text-decoration-none"><img src="img/icon-instagram.svg" alt="Instagram link"></a>
+                        </div>
                     </div>
-                    <div class="row">
-                      <li class="nav-item">
-                        <a class="nav-link text-white">Careers</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link text-white">Support</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link text-white">Policy privacy</a>
-                      </li>
+                    <div class="col-lg-2 col-md-4 col-sm-4 text-center">                        
+                        <ul class="list-unstyled ">
+                            <li><a href="about.html" class="text-decoration-none text-white">About Us</a></li>
+                            <li><a href="contact.html" class="text-decoration-none text-white">Contact</a></li>
+                            <li><a href="#" class="text-decoration-none text-white">Blog</a></li>
+                        </ul>
                     </div>
-                  </ul>
+                    <div class="col-lg-2 col-md-4 col-sm-4 text-center">                        
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-decoration-none text-white">Careers</a></li>
+                            <li><a href="#" class="text-decoration-none text-white">Support</a></li>
+                            <li><a href="#" class="text-decoration-none text-white">Policy privacy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 offset-sm-6">
+                        <div class="w-75 m-auto d-flex flex-column justify-content-between align-items-end">
+                            <a class="btn btn-primary rounded-pill mb-3 grad py-3 px-3" href="#" role="button">Request Invite</a>
+                            <p class="text-white mt-2"> © Easybank. All Rights Reserved</p>                
+                        </div>  
+                    </div>                                      
                 </div>
-                <div class="nav-third d-flex flex-column justify-content-end">
-                  <a class="btn btn-primary rounded-pill mb-3 grad py-3 px-3" href="#" role="button">Request Invite</a>
-                  <p class="text-white mt-2"> © Easybank. All Rights Reserved</p>
-                </div>
-              </div>
             </div>
-          </nav>
-  </footer>
+        </div>
+    </div>    
+</footer>  
   <!--Footer section ends-->
 
     <script src="js/bootstrap.js"></script>
